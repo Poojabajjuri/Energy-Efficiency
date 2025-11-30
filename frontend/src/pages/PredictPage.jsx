@@ -1038,6 +1038,7 @@ export default function PredictPage() {
             <div className="mt-6 flex flex-wrap gap-3">
               <button onClick={handleDownload} className="px-4 py-2 border rounded bg-blue-600 text-white hover:bg-blue-700 transition flex items-center gap-1">
                 ⬇️ Download Report (PDF)
+
               </button>
               <button onClick={onPredictAgainSame} className="px-4 py-2 border rounded bg-green-200 hover:bg-gray-100 transition flex items-center gap-1">
                 🔄 Predict Again (Same)

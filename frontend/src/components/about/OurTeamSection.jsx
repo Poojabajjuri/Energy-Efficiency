@@ -4,7 +4,7 @@ const teamMembers = [
   { name: "Sandeep", role: "Data Scientist", img: "/assets/user1.png" },
   { name: "Naveen", role: "Data Scientist", img: "/assets/user2.jpg" },
   { name: "Nishchala", role: "Data Scientist", img: "/assets/user3.png" },
-  { name: "Chandra Kiran", role: "Full-Stack Developer", img: "/assets/user4.jpeg" },
+  { name: "Chandra Kiran", role: "Full-Stack Developer", img: "/assets/user4.jpg" },
   { name: "Srinivas", role: "Full-Stack Developer", img: "/assets/user5.png" },
   { name: "Pooja", role: "Full-Stack Developer", img: "/assets/user6.png" },
 ];
