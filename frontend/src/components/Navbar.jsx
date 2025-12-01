@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
-import "./navbar.css";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -113,7 +113,7 @@ const Navbar = () => {
 
       {/* MOBILE MENU */}
 {isOpen && (
-  <div className="md:hidden bg-white border-t border-gray-200 shadow-md">
+  <div className="md:hidden bg-white border-t border-gray-200 ">
     <ul className="flex flex-col space-y-4 py-4 px-6 text-lg font-medium">
 
       <li>
